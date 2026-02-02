@@ -49,3 +49,15 @@ button:hover {
   grid-column: span 4;
   background: #e74c3c;
 }
+
+.scientific {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.scientific button {
+  height: 40px;
+  font-size: 14px;
+}
